@@ -143,3 +143,49 @@
 
 }
 
+
+
+        /* offers cards */
+
+        .container{
+            margin: 48px auto;
+            width: 80%;
+        }
+
+        .we_offer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .we_offer .card{
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            overflow: hidden;
+            transition: all .3s ease;
+        }
+
+        .we_offer .card img{
+            height: 150px;
+            width: 240px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .we_offer .card h2{
+            padding:0 10px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .we_offer .card p{
+            font-size: 11px;
+            padding: 0 10px 10px 10px;
+        }
+        
+        .card:hover{
+            scale: 1.04;
+            cursor: pointer;
+        }

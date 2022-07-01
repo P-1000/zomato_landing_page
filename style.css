@@ -230,6 +230,7 @@
             border-radius: 10px;
             position: relative;
             color: #e0e0e0;
+            font-weight: 300;
         }
 
         .card1{
@@ -260,3 +261,4 @@
     left: 0;
     background: linear-gradient(0deg,rgba(0,0,0,.9)0% , rgba(0,0,0,.05)50%),rgba(0,0,0,.05)85%;
 }            
+

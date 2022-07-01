@@ -155,7 +155,7 @@
         .we_offer{
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 16px;
             align-items: center;
             justify-content: center;
         }
@@ -185,7 +185,78 @@
             padding: 0 10px 10px 10px;
         }
         
-        .card:hover{
+        .we_offer .card:hover{
             scale: 1.04;
             cursor: pointer;
         }
+
+
+
+        /* collection */
+
+        .collections h1{
+            font-weight: 600;
+
+        }
+
+        .collections .sub_heading_container{
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .sub_heading_container span:nth-child(2){
+            color: #ff707f;
+            font-size: 13px;
+        }
+
+        .collections_card_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 24px;
+        }
+
+        .collections_card_container .card{
+            height: 300px;
+            min-width: 240px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            position: relative;
+            color: #e0e0e0;
+        }
+
+        .card1{
+                background: url(./images/collection1.jpg);
+        }
+
+        
+        .card2{
+            background: url(./images/collection2.jpg);
+            }
+
+            
+        .card3{
+            background: url(./images/collection3.jpg);
+            }
+
+            
+        .card4{
+            background: url(./images/collection4.jpg);
+            }
+          
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg,rgba(0,0,0,.9)0% , rgba(0,0,0,.05)50%),rgba(0,0,0,.05)85%;
+}            
